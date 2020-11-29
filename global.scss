@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #18181E;
+  color: #c4c4c4;
+}
+
+#intro{
+  background-image: url("img/img7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 45vw;
+}
+
+#head1{
+  font-family: Orbitron;
+  margin: 0;
+}
+#head2{
+  font-family: "Open Sans";
+  text-align: center;
+  margin-top: 10vw;
+  color: ghostwhite;
+}
+
+#about{
+  text-align: center;
+}
+
+footer{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+span{
+  color: #DEC79B;
+}
+
+#btn{
+  color: #DEC79B;
+}
+.card{
+  background-color: #18181E !important;
+  color: #c4c4c4;
+}
+
+a{
+  color: #DEC79B !important;
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #intro{
+    height: 35vw;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #intro{
+    height: 35vw;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #intro{
+    height: 35vw;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #intro{
+    height: 35vw;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Orbitron:wght@700&display=swap');
