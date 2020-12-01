@@ -138,7 +138,7 @@ Working with a company like Sarcer not only mitigates this risk, but more so ena
                           <label for="message">Message</label>
                         </div>
                       </div>
-                      <button class="btn transparent" id="btn" type="submit" name="submit">Send</button>
+                      <button class="btn transparent" id="btn" name="submit">Send</button>
                     </form>
             </div>
             <a href="mailto:info@sarcer.com" id="mail">info@sarcer.com</a>
