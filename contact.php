@@ -8,7 +8,7 @@
         $msg = $_POST['message'];
 
         $to = 'info@sarcer.com';
-        $headers = "From: $email";
+        $headers = "From: king@sarcer.com";
         if(mail($to, $subject, $msg,$headers)){
             header('location:index.php?success');
         }
