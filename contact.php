@@ -12,9 +12,8 @@
 
         $to = 'info@sarcer.com';
         $headers = "From: king@sarcer.com";
-        if(mail($to, $subject, $msg,$headers)){
-            header('location:index.php?success');
-        }
+        mail($to, $subject, $msg,$headers);
+        header('location:index.php?success');
     }
 
 ?>
